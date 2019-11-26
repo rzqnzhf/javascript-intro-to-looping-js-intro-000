@@ -20,8 +20,8 @@ function incrementVariable() {
   return i;
 }
 
-function doWhileLoop(num) {
+function doWhileLoop() {
   do {
     console.log('I run once regardless.');
-  } while (incrementVariable() < num);
+  } while (incrementVariable() < 10);
 }
